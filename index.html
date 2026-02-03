@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    .dark-mode {
+      background-color: rgb(71, 71, 71);
+      color: rgb(225, 225, 225);
+    }
+
+    .card-links {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .section-header {
+      text-align: center;
+    }
+
+    .footer {
+      background-color: rgba(230, 230, 230, 0.196);
+    }
+
+    .dark-mode-toggle-button {
+      position: fixed;
+      bottom: 50px;
+      right: 30px;
+      padding: 20px;
+      background-color: rgba(197, 197, 197, 0.507);
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: 0.5s ease-in-out;
+    }
+
+    .dark-mode-toggle-button:hover {
+      color: white;
+      background-color: black;
+    }
+  </style>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Anthony B</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#start">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row mt-5 mx-5" id="start">
+      <div
+        class="col-md-6 d-flex justify-content-center justify-content-lg-right"
+      >
+        <div class="card" style="width: 20rem">
+          <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Anthony B</h5>
+            <p class="card-text">I write code.</p>
+            <ul class="card-links">
+              <li><a href="">🌎 www.linkedin.com/in/yourname</a></li>
+              <li><a href="">🦋 yourname.bsky.social</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mt-5 mt-lg-0">
+        <h1>About Me</h1>
+        <hr />
+
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident
+          expedita laudantium saepe animi iusto dignissimos id minus repellendus
+          quisquam quis, natus nesciunt distinctio odit quae iste earum in sunt
+          corporis tenetur labore! Tempore, illo a doloremque similique quas
+          autem cupiditate, obcaecati explicabo totam ratione impedit
+          necessitatibus rem nemo cumque eos, tenetur praesentium excepturi
+          deserunt culpa commodi porro. Vel magnam, incidunt quidem illo
+          placeat, velit alias expedita blanditiis minima ullam cupiditate saepe
+          fuga molestiae perspiciatis reiciendis. Eius vitae consectetur aut
+          officia at perferendis praesentium. Deserunt, ipsam error ea
+          consectetur architecto blanditiis doloremque nostrum quia omnis
+          expedita ducimus quis, quidem eius possimus ad eligendi porro delectus
+          veniam quae? Placeat nam praesentium, magni officia delectus corrupti
+          dolore, dolorum laudantium ea iste repudiandae deleniti.
+        </p>
+      </div>
+    </div>
+
+    <div class="row m-5" id="experience">
+      <div class="section-header">
+        <h1>Experience</h1>
+        <hr />
+      </div>
+      <div>
+        <div>
+          <div class="d-flex justify-content-between">
+            <h5>Company Name</h5>
+            <h5>2025 - PRESENT</h5>
+          </div>
+          <ul>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, nulla.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, nulla.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, nulla.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="d-flex justify-content-between">
+            <h5>Company Name</h5>
+            <h5>2025 - PRESENT</h5>
+          </div>
+          <ul>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, nulla.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, nulla.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, nulla.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="d-flex justify-content-between">
+            <h5>Company Name</h5>
+            <h5>2025 - PRESENT</h5>
+          </div>
+          <ul>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, nulla.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, nulla.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, nulla.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="row m-5" id="portfolio">
+      <div class="section-header">
+        <h1>Portfolio</h1>
+        <hr />
+      </div>
+      <div>
+        <div>
+          <div class="d-flex justify-content-between">
+            <h5>Company Name</h5>
+            <h5>2025 - PRESENT</h5>
+          </div>
+          <ul>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, nulla.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, nulla.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, nulla.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="d-flex justify-content-between">
+            <h5>Company Name</h5>
+            <h5>2025 - PRESENT</h5>
+          </div>
+          <ul>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, nulla.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, nulla.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, nulla.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="d-flex justify-content-between">
+            <h5>Company Name</h5>
+            <h5>2025 - PRESENT</h5>
+          </div>
+          <ul>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, nulla.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, nulla.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, nulla.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer text-center p-3">Anthony B &copy; 2026</footer>
+
+    <button class="dark-mode-toggle-button">
+      <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        let darkModeToggleBtn = document.querySelector(
+          ".dark-mode-toggle-button",
+        );
+        let navbar = document.querySelector(".navbar");
+        let toggle = false;
+        darkModeToggleBtn.addEventListener("click", () => {
+          if (!toggle) {
+            document.body.classList.add("dark-mode");
+            navbar.classList.add("bg-dark");
+            navbar.classList.add("navbar-dark");
+          } else {
+            navbar.classList.remove("bg-dark");
+            navbar.classList.remove("navbar-dark");
+            document.body.classList.remove("dark-mode");
+          }
+          toggle = !toggle;
+        });
+      });
+    </script>
+  </body>
+</html>
